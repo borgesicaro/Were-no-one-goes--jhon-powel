@@ -1,0 +1,32 @@
+:root{
+    --font1:'drag'
+    
+}
+
+header{
+    background-color: rgb(221, 185, 103);
+    font-family: var(--font1);
+    height: 100px;
+    text-align: center;
+    margin-top: -21px;
+    margin-left: -21px;
+    margin-right: -21px;
+    
+    box-shadow: 0px 5px 2px rgba(221, 186, 103, 0.616);
+}
+
+#titulo{
+padding-top: 1px;
+}
+
+#par1{
+    background-image: url('images/img1.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    
+}
+#texto1{
+
+}
