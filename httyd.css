@@ -2,31 +2,46 @@
     --font1:'drag'
     
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 header{
     background-color: rgb(221, 185, 103);
     font-family: var(--font1);
     height: 100px;
+    width: 100%;
     text-align: center;
-    margin-top: -21px;
-    margin-left: -21px;
-    margin-right: -21px;
+    
     
     box-shadow: 0px 5px 2px rgba(221, 186, 103, 0.616);
 }
-
-#titulo{
-padding-top: 1px;
+header > p{
+    margin: 0%;
+}
+h1{
+    padding-top: 10px;
+    
 }
 
 #par1{
-    background-image: url('images/img1.jfif');
-    background-repeat: no-repeat;
+    background-image: url(https://miro.medium.com/v2/resize:fit:2000/1*1O_oSNJe36YZ_IDf3IG1Vg.jpeg);
     background-size: cover;
-    background-attachment: fixed;
-    height: 500px;
-    
+    background-attachment: scroll;
+    height: 700px;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-top: 5px;
 }
 #texto1{
+font-family:  'musicf';
+font-size: 30px;
+background-color: rgba(0, 0, 0, 0.288);
 
+
+width: 400px;
+color: white;
+text-align: justify;
 }
