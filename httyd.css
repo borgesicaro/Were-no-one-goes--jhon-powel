@@ -30,18 +30,62 @@ h1{
     background-image: url(https://miro.medium.com/v2/resize:fit:2000/1*1O_oSNJe36YZ_IDf3IG1Vg.jpeg);
     background-size: cover;
     background-attachment: scroll;
-    height: 700px;
-    padding-top: 30px;
+    /* height: 700px; */
+    padding-top: 125px;
     padding-left: 30px;
+    padding-right: 30px;
     margin-top: 5px;
+    display: flex
 }
 #texto1{
 font-family:  'musicf';
 font-size: 30px;
 background-color: rgba(0, 0, 0, 0.288);
-
-
+padding: 15px;
 width: 400px;
 color: white;
 text-align: justify;
 }
+#texto1pt{
+    margin-left: 723px;
+    font-family:  'musicf';
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.288);
+     width: 400px;
+    color: white;
+    text-align: justify;
+    padding: 15px;
+    }
+
+
+
+
+    #par2{
+    background-image: linear-gradient(to top, rgb(200, 153, 45), rgb(213, 171, 72), rgb(221, 186, 105), rgb(229, 202, 139) );
+    height: 700px;
+    padding-top: 125px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    }
+    #texto2{
+        
+        font-family:  'musicf';
+        font-size: 30px;
+        background-color: rgba(0, 0, 0, 0.288);
+         width: 400px;
+        color: white;
+        text-align: justify;
+        padding: 15px;
+        
+    }
+    #texto2pt{
+        margin-left: 723px;
+    font-family:  'musicf';
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.288);
+     width: 400px;
+    color: white;
+    text-align: justify;
+    padding: 15px;
+    }
